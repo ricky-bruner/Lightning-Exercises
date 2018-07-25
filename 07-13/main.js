@@ -165,17 +165,7 @@ function getStrings(array){
 }
 console.log(getStrings(array));
 
-function myFunction(array) {
-   stringArray = [];  
-   array.forEach(element => {
-       if (typeof(element) === "string") {
-           stringArray.push(element);
-       }
-   });
-   return stringArray;
-}
 
-console.log(myFunction(array));
 // const strings = array.filter(item => {
 //     const isString = (typeof item === "string")
 //     return isString
